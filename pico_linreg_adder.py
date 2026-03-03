@@ -2,15 +2,15 @@ import torch
 import torch.nn as nn
 
 # 1. Define simple linear model
-class AdditionNet(nn.Module):
+class PicoLinRegAdder(nn.Module):
     def __init__(self):
-        super(AdditionNet, self).__init__()
+        super(PicoLinRegAdder, self).__init__()
         self.fc = nn.Linear(2, 1)
 
     def forward(self, x):
         return self.fc(x)
 
-model = AdditionNet()
+model = PicoLinRegAdder()
 
 # 2. Inject weights and bias (Weight 1.0, Bias 0.0 for addition)
 with torch.no_grad():

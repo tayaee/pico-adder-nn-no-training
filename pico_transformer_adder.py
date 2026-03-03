@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-class TinyTransformerAdder(nn.Module):
+class PicoTransformerAdder(nn.Module):
     def __init__(self, d_model=4):
         super().__init__()
         self.d_model = d_model
@@ -40,7 +40,7 @@ class TinyTransformerAdder(nn.Module):
         return self.ffn(out)
 
 # Create model
-model = TinyTransformerAdder(d_model=4)
+model = PicoTransformerAdder(d_model=4)
 
 # 2. Manually inject weights (Hand-set weights magic)
 # Forcefully inject addition logic.
