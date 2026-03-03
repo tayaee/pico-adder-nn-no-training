@@ -7,7 +7,7 @@ This project shows how to create a functional AI model **without training**. Ins
 % git clone https://github.com/tayaee/pico-adder-nn-no-training.git
 % cd pico-adder-nn-no-training
 % uv run pico_transformer_adder.py
-Finished injecting weights into the tiny Qwen3-style transformer.
+Finished injecting weights into the tiny transformer.
 
 Input: 1.0 + 2.0 | Prediction: 3.00
 Input: 5.0 + 5.0 | Prediction: 10.00
