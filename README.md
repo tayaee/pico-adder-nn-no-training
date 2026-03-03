@@ -4,7 +4,7 @@ This project shows how to create a functional AI model **without training**. Ins
 
 ## Quick Start
 ```bash
-git clone [https://github.com/tayaee/pico-adder-nn.git](https://github.com/tayaee/pico-adder-nn-no-training.git)
+git clone https://github.com/tayaee/pico-adder-nn.git
 uv run pico_transformer_adder.py
 ```
 
