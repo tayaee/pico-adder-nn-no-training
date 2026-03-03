@@ -17,7 +17,7 @@ with torch.no_grad():
     model.fc.weight.copy_(torch.tensor([[1.0, 1.0]]))
     model.fc.bias.copy_(torch.tensor([0.0]))
 
-print("Completed building model (weights/biases injected).")
+print("Completed building linear regresssion model (weights/biases injected).")
 print(f"W: {model.fc.weight.data}, B: {model.fc.bias.data}\n")
 
 # 3. Test cases (e.g., 1-9 combinations)
